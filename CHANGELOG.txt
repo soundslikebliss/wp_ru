@@ -1,0 +1,29 @@
+NULIS 
+http://supakunza.com/nulis
+Theme Version: 2.0.1
+
+
+----------------------------
+== Changelog ==
+----------------------------
+
+2.0.1 —— 6 January 2015
+- Fixing socials links icons.
+
+2.0.0 —— 1 January 2015: 
+- Redesign 
+- Change new screenshot 
+- Add post excerpts option on customizer
+- Add new fonts, 
+- more social links, 
+- and remove unused functions.
+
+1.0.2 —— Code update on socials.php
+
+1.0.1 —— October 29, 2014: 
+- Moving theme features to customizer panel, 
+- Add default logo 
+- Remove functions that fall under plugin territory.
+
+1.0.0 —— October 1, 2014:
+- Release

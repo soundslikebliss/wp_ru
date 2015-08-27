@@ -1,0 +1,439 @@
+/*
+Theme Name: Nulis
+Description: Used to style the TinyMCE editor.
+*/
+
+html {
+	font-size: 62.5%;
+}
+html .mceContentBody {
+	max-width: 625px;
+}
+
+/*------------ Typography
+--------------------------------------------------------------*/
+
+body {
+	text-rendering: optimizeLegibility;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+  	color: #55626D;
+  	font-weight: 400;
+  	font-size: 1.5rem;
+  	font-size: 15px;
+  	line-height: 1.5;
+  	font-family: 'Noto Serif', 'Georgia', Times, 'Times New Roman', serif;
+  	font-style: normal;
+}
+
+	@media (min-width: 44.444em) {
+		body,
+		button,
+		input,
+		select,
+		textarea {
+			font-size: 17px;
+			font-size: 1.7rem;
+			line-height: 1.7;
+		}
+	}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Montserrat', Helvetica, arial, sans-serif;
+  	letter-spacing: -0.0134rem;
+  	clear: both;
+  	font-weight: 700;
+  	font-weight: bold;
+  	margin-bottom: 0.667em;
+}
+
+h1 {
+  	font-size: 1.667rem;
+  	font-size: 30px;
+  	line-height: 1;
+}
+
+h2 {
+  	font-size: 1.389rem;
+  	font-size: 25px;
+  	line-height: 1.1333333333;
+}
+
+h3 {
+	font-size: 1.278rem;
+  	font-size: 23px;
+  	line-height: 1.2142857142;
+}
+
+h4 {
+	font-size: 1.222rem;
+  	font-size: 22px;
+  	line-height: 1.3076923076;
+}
+
+h5 {
+	font-size: 1.111rem;
+  	font-size: 20px;
+  	line-height: 1.4166666666;
+}
+
+h6 {
+	font-size: 0.944rem;
+  	font-size: 17px;
+	line-height: 1.4782608695;
+}
+
+p {
+	margin-bottom: 1.5em;
+}
+
+b,
+strong {
+	font-weight: 700;
+}
+
+dfn,
+cite,
+em,
+i {
+	font-style: italic;
+}
+
+blockquote {
+	font-family: 'Georgia', Times, serif;		
+	border-left: 4px solid #FFC600;
+	font-size: 17px;
+	font-size: 1.7rem;
+	font-style: italic;
+	line-height: 1.5;
+	margin: 0em;
+	padding-left: 1em;
+}
+	
+	@media (min-width: 50em) {
+		blockquote {
+			font-size: 2.2rem;
+			font-size: 22px;
+			margin: 1.5em;
+			padding-left :1.5em;
+		}
+	}
+
+blockquote p {
+	margin-bottom: 1.5em;
+}
+
+blockquote cite,
+blockquote small {
+	color: #333;
+	font-size: 16px;
+	font-size: 1.6rem;
+	font-family: "Georgia", "Times", sans-serif;
+	line-height: 1.6;
+}
+
+blockquote em,
+blockquote i,
+blockquote cite {
+	font-style: normal;
+}
+
+blockquote strong,
+blockquote b {
+	font-weight: 400;
+}
+
+address {
+	font-style: italic;
+	margin: 0 0 1.5em;
+}
+
+code,
+kbd,
+tt,
+var,
+samp,
+pre {
+	font-family: Inconsolata, monospace;
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+
+code {
+	border: 1px solid rgba(51, 51, 51, 0.1);
+	line-height: 1.2;
+	background-color: rgba(0, 0, 0, 0.01);
+	padding: 0.2em 0.4em;
+	border-radius: 7px;
+}
+
+pre {
+	background-color: transparent;
+	background-color: rgba(0, 0, 0, 0.025);
+	border: 1px solid #EAEAEA;
+	border: 1px solid rgba(51, 51, 51, 0.1);
+	line-height: 1.2;
+	margin-bottom: 1.5em;
+	max-width: 100%;
+	overflow: auto;
+	padding: 0.8em;
+	white-space: pre;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+abbr[title] {
+	border-bottom: 1px dotted #EAEAEA;
+	border: 1px solid rgba(51, 51, 51, 0.1);
+	cursor: help;
+}
+
+mark,
+ins {
+	background-color: #FFF9c0;
+	text-decoration: none;
+}
+
+sup,
+sub {
+	font-size: 75%;
+	height: 0;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
+sup {
+	bottom: 1ex;
+}
+
+sub {
+	top: .5ex;
+}
+
+small {
+	font-size: 75%;
+}
+
+big {
+	font-size: 125%;
+}
+
+/*
+* Elements
+----------*/
+
+hr {
+	background-color: #EAEAEA;
+	background-color: rgba(51, 51, 51, 0.1);
+	border: 0;
+	height: 1px;
+	margin-bottom: 1.5em;
+}
+
+ul,
+ol {
+	margin: 0 0 1.5em 1.2555em;
+}
+
+ul {
+	list-style: disc;
+}
+
+ol {
+	list-style: decimal;
+}
+
+li > ul,
+li > ol {
+	margin-bottom: 0;
+}
+
+dl {
+	margin-bottom: 1.5em;
+}
+
+dt {
+	font-weight: bold;
+}
+
+dd {
+	margin-bottom: 1.5em;
+}
+
+table,
+th,
+td {
+	border: 1px solid #EAEAEA;
+	border: 1px solid rgba(51, 51, 51, 0.1);
+}
+
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	border-width: 1px 0 0 1px;
+	margin: 0 0 1.5em;
+	table-layout: fixed; /* Prevents HTML tables from becoming too wide */
+	width: 100%;
+}
+
+caption,
+th,
+td {
+	font-weight: normal;
+	text-align: left;
+}
+
+th {
+	border-width: 0 1px 1px 0;
+	font-weight: 700;
+}
+
+td {
+	border-width: 0 1px 1px 0;
+}
+
+th, td {
+	padding: 0.4em;
+}
+
+img {
+	-ms-interpolation-mode: bicubic;
+	border: 0;
+	height: auto;
+	max-width: 100%;
+	vertical-align: middle;
+}
+
+figure {
+	margin: 0;
+}
+
+del {
+	opacity: 0.8;
+}
+
+::-webkit-input-placeholder {
+	color: rgba(51, 51, 51, 0.7);
+	font-family: "Montserrat", sans-serif;
+}
+
+:-moz-placeholder {
+	color: rgba(51, 51, 51, 0.7);
+	font-family: "Montserrat", sans-serif;
+}
+
+::-moz-placeholder {
+	color: rgba(51, 51, 51, 0.7);
+	font-family: "Montserrat", sans-serif;
+	opacity: 1;
+}
+
+:-ms-input-placeholder {
+	color: rgba(51, 51, 51, 0.7);
+	font-family: "Montserrat", sans-serif;
+}
+
+::-moz-selection {
+  color: #FFFFFF;
+  text-shadow: none;
+  background-color: #FFC600;
+}
+
+::selection {
+  color: #FFFFFF;
+  text-shadow: none;
+  background-color: #FFC600;
+}
+
+/* Links ----------*/
+
+a {
+	-webkit-transition: 200ms all ease;
+  	-moz-transition: 200ms all ease;
+  	-o-transition: 200ms all ease;
+  	transition: 200ms all ease;
+}
+
+a {	color: #55626D; }
+
+a { text-decoration: none; }
+
+a:hover,
+a:focus {
+	color: #FFC600;
+	outline: 0;
+}
+
+/* Images  ----------*/
+
+img,
+.editor-attachment {
+	border: 0;
+	border-radius: 3px;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+	max-width: 100%;
+}
+
+img.size-full {
+	width: auto/9; /* Prevent stretching of full-size images in IE8 */
+}
+
+img[class*="wp-image-"] {
+	height: auto;
+	max-width: 100%;
+}
+
+img[class*="align"],
+img[class*="wp-image-"],
+img[class*="attachment-"] {
+	height: auto; /* Make sure images with WordPress-added height and width attributes are scaled correctly */
+}
+
+img.mce-wp-nextpage {
+	border-radius: 0;
+	box-shadow: none;
+}
+
+img.wp-smiley {
+	border: 0;
+	border-radius: 0;
+	box-shadow: none;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 0;
+}
+
+.wp-caption {
+	background: transparent;
+	border: none;
+	margin: 0;
+	padding: 4px;
+	text-align: left;
+}
+
+.wp-caption-dt {
+	margin: 0;
+}
+
+.wp-caption .wp-caption-text,
+.wp-caption-dd {
+	color: #757575;
+	font-style: italic;
+	font-size: 12px;
+	font-size: 0.857142857rem;
+	line-height: 2;
+	margin: 0 0 24px;
+	margin: 0 0 1.71429rem;
+}

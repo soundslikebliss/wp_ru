@@ -1,0 +1,563 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Nulis Theme 2.0.1\n"
+"POT-Creation-Date: 2015-01-06 11:14+0700\n"
+"PO-Revision-Date: 2015-01-06 11:14+0700\n"
+"Last-Translator: \n"
+"Language-Team: Supakunza <hello@supakunza.com>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_x\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Oops! Halaman yang anda cari tidak ditemukan."
+
+#: 404.php:19
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+"Sepertinya tidak ditemukan di lokasi ini, Mungkin mencoba salah satu tautan "
+"dibawah ini atau menggunakan mesin pencari?"
+
+#: 404.php:27
+msgid "Most Used Categories"
+msgstr "Kategori Terpopuler"
+
+#: 404.php:44
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Coba melihat di arsip bulanan. %1$s"
+
+#: comments.php:44
+msgid "Comment navigation"
+msgstr "Navigasi komentar"
+
+#: comments.php:45
+msgid "&larr; Older Comments"
+msgstr "&larr; Komentar Lama"
+
+#: comments.php:46
+msgid "Newer Comments &rarr;"
+msgstr "Komentar Baru &rarr;"
+
+#: comments.php:56
+msgid "Comments are closed."
+msgstr "Komentar ditutup."
+
+#: content-aside.php:10 content-gallery.php:14 content-image.php:16
+#: content.php:15
+#, php-format
+msgid "All %s posts"
+msgstr "Semua %s article"
+
+#: content-aside.php:17 content-gallery.php:47 content-image.php:46
+#: content-link.php:36 content-quote.php:33 content.php:45
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Teruskan membaca %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: content-aside.php:22 content-gallery.php:54 content-image.php:51
+#: content-link.php:41 content-page.php:18 content-quote.php:40
+#: content-single.php:20 content.php:50
+msgid "Pages:"
+msgstr "Halaman:"
+
+#: content-none.php:13
+msgid "Ahoy! Nothing Found"
+msgstr "Wedew! Tidak Ditemukan"
+
+#: content-none.php:19
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"Siap untuk menerbitkan artikel pertama? <a href=\"%1$s\">Get started here</"
+"a>."
+
+#: content-none.php:23
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Maaf, belum ada yang sesuai dengan topik pencarian, Silahkan coba lagi "
+"dengan kata kunci yang lain."
+
+#: content-none.php:28
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Sepertinya kita tidak menemukan apa yang anda cari. Mungkin pencarian bisa "
+"membantu."
+
+#: content-page.php:25 inc/template-tags.php:121
+msgid "Edit"
+msgstr "Sunting"
+
+#: footer.php:44
+#, php-format
+msgid "Theme: %1$s <em>by</em> <a href=\"%2$s\">Supakunza</a>"
+msgstr "Tema: %1$s <em>oleh</em> <a href=\"%2$s\">Supakunza</a>"
+
+#: footer.php:46
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#: footer.php:46
+#, php-format
+msgid "Proudly powered by %s"
+msgstr "Dengan bangga bertenaga %s"
+
+#: functions.php:66
+msgid "Primary Menu"
+msgstr "Menu Utama"
+
+#: functions.php:99
+msgid "Widget Area One"
+msgstr "Area Widget Satu"
+
+#: functions.php:108
+msgid "Widget Area Two"
+msgstr "Area Widget Dua"
+
+#: functions.php:117
+msgid "Widget Area Three"
+msgstr "Area Widget Tiga"
+
+#: functions.php:126
+msgid "Widget Area Four"
+msgstr "Area Widget Empat"
+
+#: functions.php:149 functions.php:154 functions.php:159 functions.php:164
+msgid "on"
+msgstr "pada"
+
+#: functions.php:169
+msgid "no-subset"
+msgstr "bukan-bagian"
+
+#: functions.php:266
+#, php-format
+msgid "Page %s"
+msgstr "Halaman %s"
+
+#: functions.php:307
+#, php-format
+msgid "Continue reading %s"
+msgstr "Lanjut membaca %s"
+
+#: header.php:23
+msgid "Skip to content"
+msgstr "Langsung ke konten utama"
+
+#: header.php:27
+msgid "Menu"
+msgstr "Menu"
+
+#: header.php:28
+msgid "Search"
+msgstr "Cari"
+
+#: search.php:16
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Hasil Pencarian Untuk %s"
+
+#: socials.php:44
+msgid "Dribbble"
+msgstr "Dribbble"
+
+#: socials.php:52
+msgid "Facebook"
+msgstr "Facebook"
+
+#: socials.php:60
+msgid "Flickr"
+msgstr "Flickr"
+
+#: socials.php:68
+msgid "Github"
+msgstr "Github"
+
+#: socials.php:76
+msgid "Google Plus"
+msgstr "Google Plus"
+
+#: socials.php:84
+msgid "LinkedIn"
+msgstr "Linkedin"
+
+#: socials.php:92
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: socials.php:100
+msgid "RSS"
+msgstr "RSS"
+
+#: socials.php:108
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: socials.php:116
+msgid "Twitter"
+msgstr "Twitter"
+
+#: socials.php:124
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: socials.php:132
+msgid "Youtube"
+msgstr "Youtube"
+
+#: inc/back-compat.php:33 inc/back-compat.php:41 inc/back-compat.php:52
+#, php-format
+msgid ""
+"Nulis requires at least WordPress version 4.1. You are running version %s. "
+"Please upgrade and try again."
+msgstr ""
+"Nulis mewajibkan setidaknya WordPress versi 4.1. Anda sekarang ini "
+"menggunakan versi %s. Silahkan naikkan versi Anda dan coba lagi."
+
+#: inc/custom-header.php:41
+msgid "Nulis"
+msgstr "Nulis"
+
+#: inc/customizer.php:26
+msgid "Colorized Your Blog"
+msgstr "Warnai Blog Anda"
+
+#: inc/customizer.php:27
+msgid "Choose your favourite color to match with your character."
+msgstr "Pilih warna favorit Anda agar sesuai dengan karakter Anda"
+
+#: inc/customizer.php:32
+msgid "Change site title & description default color."
+msgstr "Ubah warna bawaan pada judul website dan deskripsi"
+
+#: inc/customizer.php:41
+msgid "Accent Color"
+msgstr "Aksentuasi Warna"
+
+#: inc/customizer.php:53
+msgid "Toolbar Background"
+msgstr "Toolbar Latar belakang"
+
+#: inc/customizer.php:65
+msgid "About Me Background"
+msgstr "About Me Latar Belakang"
+
+#: inc/customizer.php:77
+msgid "About Me Text"
+msgstr "About Me Teks"
+
+#: inc/customizer.php:89
+msgid "Footer Text"
+msgstr "Footer Teks"
+
+#: inc/customizer.php:97
+msgid "Upload Avatar"
+msgstr "Unggah Foto"
+
+#: inc/customizer.php:98
+msgid ""
+"Add avatar/personal logo to your blog. You can use either Gravatar or upload "
+"your custom avatar by choosing options below."
+msgstr ""
+"Tambahkan foto/logo personal ke blog Anda. Anda bisa menggunakan antara "
+"Gravatar atau mengunggah foto dengan memilih opsi berikut."
+
+#: inc/customizer.php:108
+msgid "Use gravatar"
+msgstr "Gunakan Gravatar"
+
+#: inc/customizer.php:111
+msgid ""
+"To use Gravatar simply check options above and write your Gravatar email "
+"address in the box below."
+msgstr ""
+"Untuk menggunakan Gravatar pilih opsi diatas dan tulis akun email Gravatar "
+"anda ke dalam kolom berikut."
+
+#: inc/customizer.php:134
+msgid "Self Upload"
+msgstr "Unggah Sendiri"
+
+#: inc/customizer.php:137
+msgid ""
+"Upload your custom avatar/logo by clicking select image button below. Nulis "
+"theme recommends avatar/logo size 200x200 pixels."
+msgstr ""
+"Unggah kustom foto/logo dengan menekan tombol dibawah. Tema Nulis "
+"merekomendasikan ukuran foto/logo 200x200 pixel."
+
+#: inc/customizer.php:144
+msgid "Post Excerpts"
+msgstr "Nukilan Tulisan"
+
+#: inc/customizer.php:145
+msgid "Auto generate excerpts."
+msgstr "Otomatis hasilkan nukilan."
+
+#: inc/customizer.php:154
+#, fuzzy
+msgid "Use excerpts"
+msgstr "Nukilan Tulisan"
+
+#: inc/customizer.php:157
+msgid "Enabling this option will generate auto excerpt to your blog."
+msgstr "Mengaktifkan opsi ini akan menghasilkan nukilan tulisan pada blog Anda"
+
+#: inc/customizer.php:164
+msgid "Social Links"
+msgstr "Tautan Sosial"
+
+#: inc/customizer.php:165
+msgid "Add social links to your blog."
+msgstr "Tambahkan tautan sosial pada blog Anda."
+
+#: inc/customizer.php:174
+msgid "Dribbble Link"
+msgstr "Tautan Dribbble"
+
+#: inc/customizer.php:186
+msgid "Facebook Link"
+msgstr "Tautan Facebook"
+
+#: inc/customizer.php:198
+msgid "Flickr Link"
+msgstr "Tautan Flickr"
+
+#: inc/customizer.php:210
+msgid "Github Plus Link"
+msgstr "Tautan Google Plus"
+
+#: inc/customizer.php:222
+msgid "LinkedIn Link"
+msgstr "Tautan LinkedIn"
+
+#: inc/customizer.php:234
+msgid "Pinterest Link"
+msgstr "Tautan Pinterest"
+
+#: inc/customizer.php:246
+msgid "RSS Link"
+msgstr "Tautan RSS"
+
+#: inc/customizer.php:258
+msgid "Tumblr Link"
+msgstr "Tautan Tumblr"
+
+#: inc/customizer.php:270
+msgid "Twitter Link"
+msgstr "Tautan Twitter"
+
+#: inc/customizer.php:282
+msgid "Vimeo Link"
+msgstr "Tautan Vimeo"
+
+#: inc/customizer.php:294
+msgid "Youtube Link"
+msgstr "Tautan Youtube"
+
+#: inc/customizer.php:317
+msgid "About Me"
+msgstr "Tentang Saya"
+
+#: inc/customizer.php:318
+msgid ""
+"Write short description about you. To use this feature, please check options "
+"below. This text will hide current site title & site description appear in "
+"the footer section."
+msgstr ""
+"Tulis deskripsi singkat tentang Anda. Untuk menggunakan fitur ini, silahkan "
+"centang opsi berikut. Ini akan menyembunyikan judul website dan deskripsi "
+"situs sekarang yang ada di bagian kaki."
+
+#: inc/customizer.php:328
+msgid "Use this feature"
+msgstr "Gunakan fitur ini"
+
+#: inc/customizer.php:344
+msgid "Add your name"
+msgstr "Tulis nama Anda"
+
+#: inc/customizer.php:359
+msgid "Short Profile"
+msgstr "Profil Singkat"
+
+#: inc/customizer.php:361
+msgid " Please note that only the \"a\" and \"br\" HTML tags are allowed."
+msgstr ""
+" Harap diperhatikan hanya penggunaan \"a\" and \"br\" HTML tags yang "
+"diperbolehkan."
+
+#: inc/template-tags.php:23
+msgid "Posts navigation"
+msgstr "Navigasi tulisan"
+
+#: inc/template-tags.php:28
+msgid "More Posts"
+msgstr "Tulisan Lain."
+
+#: inc/template-tags.php:32
+msgid "Newer <span class=\"genericon genericon-next\"></span>"
+msgstr "Terbaru <span class=\"genericon genericon-next\"></span>"
+
+#: inc/template-tags.php:56
+msgid "Post navigation"
+msgstr "Navigasi tulisan"
+
+#: inc/template-tags.php:59
+msgid ""
+"<hgroup><span class=\"nav-title\">Previous</span><span class=\"post-title\">"
+"%title</span></hgroup>"
+msgstr ""
+"<hgroup><span class=\"nav-title\">Sebelumnya</span><span class=\"post-title"
+"\">%title</span></hgroup>"
+
+#: inc/template-tags.php:60
+msgid ""
+"<hgroup><span class=\"nav-title\">Next</span><span class=\"post-title\">"
+"%title</span></hgroup>"
+msgstr ""
+"<hgroup><span class=\"nav-title\">Selanjutnya</span><span class=\"post-title"
+"\">%title</span></hgroup>"
+
+#: inc/template-tags.php:86
+#, php-format
+msgid "Published on %s"
+msgstr "Diunggah pada %s"
+
+#: inc/template-tags.php:91
+#, php-format
+msgid "by %s"
+msgstr "oleh %s"
+
+#: inc/template-tags.php:109 inc/template-tags.php:114
+msgid " "
+msgstr ""
+
+#: inc/template-tags.php:111 inc/template-tags.php:116
+#, php-format
+msgid "%1$s"
+msgstr "%1$s"
+
+#: inc/template-tags.php:132
+msgid "0 <span class=\"thoughts\">Thought</span>"
+msgstr "0 <span class=\"thoughts\">Komentar</span>"
+
+#: inc/template-tags.php:132
+msgid "1 <span class=\"thoughts\">Thought</span>"
+msgstr "1 <span class=\"thoughts\">Komentar</span>"
+
+#: inc/template-tags.php:132
+msgid "% <span class=\"thoughts\">Thoughts</span>"
+msgstr "% <span class=\"thoughts\">Komentar</span>"
+
+#: inc/template-tags.php:151
+#, php-format
+msgid "Category: %s"
+msgstr "Kategori: %s"
+
+#: inc/template-tags.php:153
+#, php-format
+msgid "Tag: %s"
+msgstr "Tag: %s"
+
+#: inc/template-tags.php:155
+#, php-format
+msgid "Author: %s"
+msgstr "Penulis: %s"
+
+#: inc/template-tags.php:157
+#, php-format
+msgid "Year: %s"
+msgstr "Tahun: %s"
+
+#: inc/template-tags.php:157
+msgid "Y"
+msgstr "Y"
+
+#: inc/template-tags.php:159
+#, php-format
+msgid "Month: %s"
+msgstr "Bulan: %s"
+
+#: inc/template-tags.php:159
+msgid "F Y"
+msgstr "F Y"
+
+#: inc/template-tags.php:161
+#, php-format
+msgid "Day: %s"
+msgstr "Hari: %s"
+
+#: inc/template-tags.php:161
+msgid "F j, Y"
+msgstr "F j, Y"
+
+#: inc/template-tags.php:163
+msgid "Asides"
+msgstr "Ke samping"
+
+#: inc/template-tags.php:165
+msgid "Galleries"
+msgstr "Galeri"
+
+#: inc/template-tags.php:167
+msgid "Images"
+msgstr "Gambar:"
+
+#: inc/template-tags.php:169
+msgid "Videos"
+msgstr "Video"
+
+#: inc/template-tags.php:171
+msgid "Quotes"
+msgstr "Kutipan"
+
+#: inc/template-tags.php:173
+msgid "Links"
+msgstr "Tautan"
+
+#: inc/template-tags.php:175
+msgid "Statuses"
+msgstr "Status"
+
+#: inc/template-tags.php:177
+msgid "Audio"
+msgstr "Audio"
+
+#: inc/template-tags.php:179
+msgid "Chats"
+msgstr "Obrolan"
+
+#: inc/template-tags.php:181
+#, php-format
+msgid "Archives: %s"
+msgstr "Arsip: %s"
+
+#: inc/template-tags.php:185
+#, php-format
+msgid "%1$s: %2$s"
+msgstr "%1$s: %2$s"
+
+#: inc/template-tags.php:187
+msgid "Archives"
+msgstr "Arsip"
+
+#~ msgid "Disabled"
+#~ msgstr "Non-aktif"
+
+#~ msgid "Enabled"
+#~ msgstr "Aktif"
