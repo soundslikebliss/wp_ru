@@ -2780,3 +2780,8 @@ object {
 #skills h1 {
 	color: #d37f30;
 }
+
+#secondary .widget-area {
+	text-align: center;
+	width: 100%;
+}
