@@ -1400,7 +1400,7 @@ input[type="submit"],
 }
 
 .default-logo:before {
-	content: "\f411";
+	content: "\f461";
     text-align: center;
     font-family: Genericons;
     position: relative;
@@ -2784,4 +2784,7 @@ object {
 #secondary .widget-area {
 	text-align: center;
 	width: 100%;
+}
+#masthead {
+	background-size: cover;
 }
