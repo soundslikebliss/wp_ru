@@ -2785,6 +2785,14 @@ object {
 	text-align: center;
 	width: 100%;
 }
+.site-header {
+	padding: 0;
+}
+.entry-header {
+	margin-top: 0;
+}
 #masthead {
 	background-size: cover;
+	background-position: center;
+	padding-bottom: 1em;
 }

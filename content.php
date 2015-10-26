@@ -26,30 +26,30 @@ $nulis_excerpts = get_theme_mod('nulis_excerpt_options');
 	</header><!-- .entry-header -->
 
 	<?php if ( has_post_thumbnail() ) : ?>
-		
+
 		<figure class="entry-thumbnail">
 			<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail( 'nulis-featured' ); ?></a>
 		</figure>
 
-	<?php endif;?><!-- .entry-thumbnail -->	
+	<?php endif;?><!-- .entry-thumbnail -->
 
 	<div class="entry-content">
-		<?php 
+		<?php
 			if ( $nulis_excerpts ) :
-				 	
-				 	the_excerpt();	
-				 
-				 else : 	
+
+				 	the_excerpt();
+
+				 else :
 					/* translators: %s: Name of current post */
 					the_content( sprintf(
 						__( 'Continue reading %s <span class="meta-nav">&rarr;</span>', 'nulis' ),
 						the_title( '<span class="screen-reader-text">"', '"</span>', false )
 				) );
-				
+
 				wp_link_pages( array(
 					'before' => '<div class="page-links">' . __( 'Pages:', 'nulis' ),
 					'after'  => '</div>',
-				) 
+				)
 			);
 			endif;
 		?>
@@ -57,7 +57,7 @@ $nulis_excerpts = get_theme_mod('nulis_excerpt_options');
 
 	<?php if ( ! $nulis_excerpts ):?>
 	<footer class="entry-footer clear">
-		<?php nulis_comments(); ?>		
+		<?php nulis_comments(); ?>
 		<?php nulis_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
 	<?php endif;?>
